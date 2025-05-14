@@ -16,6 +16,15 @@ int main(){
     cout<<"the address of b is : "<<c<<endl;
     cout<<"the address of b is:  "<<&b<<endl;
 
+    //pointer and array
+
+    int marks[3] = {3,34,9};
+    int *p = marks;
+    p++;
+    cout<<p<<endl;
+    cout<<*p<<endl;
+    cout<<*(p+1)<<endl;
+
 
     return 0;
 } 
