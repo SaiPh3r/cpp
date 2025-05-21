@@ -5,6 +5,24 @@
 # include <iostream>
 using namespace std;
 
+class Complex{
+    int real;
+    int imaginary;
+
+    public:
+        void getData(){
+            cout<<"the real part is "<<real<<endl;
+            cout<<"the imaginary part is "<<imaginary<<endl;
+        }
+
+        void setData(int a , int b){
+            real = a;
+            imaginary = b;
+
+
+        }
+};
+
 
 int add(int a , int b){
     cout<<a + b<<endl;
@@ -51,10 +69,22 @@ int main(){
     func_ptr = &subtract;
     func_ptr(3,1);
 
-    
+    //pointers to objects
 
-    
+    Complex c1;
+    Complex *ptr = & c1; // this is the syntax for pointer to object
+    (*ptr).setData(2,4);
+    (*ptr).getData();
 
+    Complex *ptrr = new Complex;
+    (*ptrr).setData(3,5);
+    (*ptrr).getData();
+
+
+
+    //or we can use arrow
+    ptrr->setData(6,7);
+    ptrr->getData();
 
 
 
