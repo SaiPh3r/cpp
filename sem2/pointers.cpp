@@ -76,7 +76,7 @@ int main(){
     (*ptr).setData(2,4);
     (*ptr).getData();
 
-    Complex *ptrr = new Complex;
+    Complex *ptrr = new Complex;  // another way of making object
     (*ptrr).setData(3,5);
     (*ptrr).getData();
 
@@ -85,6 +85,11 @@ int main(){
     //or we can use arrow
     ptrr->setData(6,7);
     ptrr->getData();
+
+
+    // array of objects using pointers
+
+    
 
 
 
