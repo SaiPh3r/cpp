@@ -13,9 +13,10 @@ class Youtube{
             title = t;
             rating = r;
         }
-        void virtual display(){
-
-        }
+        void virtual display()=0; // this = 0 makes this pure vrtual function .
+        //pure virtual function means that if display is not defined in derived class it will throw an error
+        //so is is must to make display() in derived class.
+        
 
 };
 
