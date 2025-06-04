@@ -53,6 +53,26 @@ int main(){
         cout<<endl;
     }
 
+    //triange patter with 1,2,3,4
+    // int u = 4;
+    // for(int i = 0;i<u;i++){
+    //     for(int j = 0;j<i+1;j++){
+    //         cout<<j+1<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    int u = 4;
+    for(int i = 0; i<u;i++){
+        for (int j = 0;j<=i;j++){
+            cout<<j+1<<"";
+
+
+        }
+        cout<<endl;
+    }
+
+
 
 
 
