@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/saianand/Documents/c++/sem2/output/templateWithMultParam'
+relocations:     []
+...
